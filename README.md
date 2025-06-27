@@ -23,7 +23,7 @@ Aggregated rare locations into an "other" category to reduce dimensionality.
 
 Filtered outliers, such as entries where the number of bathrooms exceeds the number of BHKs.
 
-3. Exploratory Data Analysis (EDA)
+2. Exploratory Data Analysis (EDA)
 
 Visualized data distributions and trends using histograms and scatter plots.
 
@@ -31,7 +31,7 @@ Identified and addressed skewed data and location-based price patterns.
 
 Informed outlier removal and feature scaling decisions.
 
-4. Model Building & Validation
+3. Model Building & Validation
 
 Implemented Linear Regression as a baseline model.
 
@@ -41,7 +41,7 @@ Performed hyperparameter tuning using GridSearchCV.
 
 Evaluated models using K-Fold cross-validation with MAE, MSE, and R² metrics.
 
-5. API Development
+4. API Development
 
 Serialized the trained model using pickle.
 
@@ -51,7 +51,7 @@ Developed a Flask API with endpoints:
 
 /predict_home_price: Returns price predictions based on user input.
 
-6. Front-End Interface
+5. Front-End Interface
 
 Built a responsive UI using HTML, CSS, and JavaScript.
 
